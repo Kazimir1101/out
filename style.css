@@ -294,7 +294,6 @@ a {
     white-space: nowrap;
 }
 
-
 /* category colors */
 
 .sweets {
@@ -323,20 +322,9 @@ a {
 }
 
 .other {
-    background: #f0f1f3;
-    color: #656a72;
-}
-
-.home {
-    background: #eaf7f7;
+    background: #e7f5f5;
     color: #2d9c9c;
 }
-
-.beauty {
-    background: #f9ebf5;
-    color: #c14a92;
-}
-
 
 /* =====================================================
    BUSINESS
@@ -479,30 +467,6 @@ a {
     font-size: 11px;
 
     color: rgba(255,255,255,.78);
-}
-
-.business-arrow {
-    width: 44px;
-    height: 44px;
-
-    border-radius: 50%;
-
-    background: rgba(255,255,255,.17);
-
-    backdrop-filter: blur(10px);
-
-    color: white;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    transition: .2s;
-}
-
-.business-arrow:hover {
-    background: white;
-    color: #222;
 }
 
 .slider-dots {
@@ -648,7 +612,7 @@ a {
 }
 
 .ad-content h3 {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 700;
 
     white-space: nowrap;
@@ -659,7 +623,7 @@ a {
 .ad-description {
     margin-top: 5px;
 
-    font-size: 10px;
+    font-size: 14px;
 
     color: #9b9fa5;
 
@@ -687,7 +651,7 @@ a {
 .old-price {
     color: #a5a7aa;
 
-    font-size: 10px;
+    font-size: 14px;
 
     text-decoration: line-through;
 }
@@ -1025,11 +989,11 @@ a {
     }
 
     .ad-content h3 {
-        font-size: 12px;
+        font-size: 16px;
     }
 
     .ad-description {
-        font-size: 9px;
+        font-size: 14px;
     }
 
     .price-row {
@@ -1041,7 +1005,7 @@ a {
     }
 
     .old-price {
-        font-size: 9px;
+        font-size: 12px;
     }
 
     .ad-info {
